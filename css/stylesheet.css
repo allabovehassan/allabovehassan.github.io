@@ -863,7 +863,7 @@ hr {
 
 /*== Side Header ==*/
 .side-header #main-wrapper {
-  margin-left: 260px;
+  /* margin-left: 260px; */
 }
 
 .side-header.rtl #main-wrapper {
@@ -3745,7 +3745,7 @@ button.rn-btn:hover {
 #nav > div{
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   text-decoration: none;
 }
 
