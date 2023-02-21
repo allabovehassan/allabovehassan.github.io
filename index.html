@@ -77,13 +77,16 @@
               <div><a href="#contact" class="nav-link contact" style="color: 
                 #f5df4e;">Contact</a></div>
 
-              <div>
-                <a href="/Hassan_Khan_Resume.pdf" download
-                  onclick="window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link')"
-                  id="resume-link-1" class="nav-link resume" style="color: 
-                #f5df4e;">
-                  <button id="resume-button-1"
-                    style="color: #f5df4e; border: none; background: inherit; font-weight: 600;">Resume</button>
+              <div id="resume-button-1">
+              
+
+                <a class="nav-link resume" id="resume-link-1" href="/Hassan_Khan_Resume.pdf" download="Hassan_Khan_Resume"
+                target="_blank"
+                 
+                   style="color: 
+                #f5df4e;">Resume
+                  <!-- <button id="resume-button-1"
+                    style="color: #f5df4e; border: none; background: inherit; font-weight: 600;">Resume</button> -->
                 </a>
               </div>
 
@@ -104,11 +107,13 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-                <li class="nav-item">
+               
+                <li class="nav-item" id="resume-button-1">
 
-                  <a href="/Hassan_Khan_Resume.pdf" download class="nav-link smooth-scroll"
-                    onclick="window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link')">Resume</a>
+                  <a id="resume-link-1" href="/Hassan_Khan_Resume.pdf" download="Hassan_Khan_Resume" class="nav-link smooth-scroll"
+                    >Resume</a>
                 </li>
+
                 <!-- #212529 -->
             </div>
           </div>
@@ -117,6 +122,9 @@
       <!-- Navbar End -->
     </header>
     <!-- Header End -->
+
+
+
 
     <!-- Content
   ============================================= -->
@@ -689,10 +697,10 @@
     // onclick="window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link')";
 
 
-  //   document.getElementById('resume-link-1').addEventListener("click",()=>{
+    document.getElementById('resume-link-1').addEventListener("click",()=>{
     
-  //   window.location.assign("https://drive.google.com/file/d/1c2IX4RaLn9V_UWALLhcVBCdPFKuII3Cn/view?usp=share_link", "_blank");
-  // })
+    window.location.assign('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link', "_blank");
+  })
   
   document.getElementById('resume-link-2').addEventListener("click",()=>{
    
