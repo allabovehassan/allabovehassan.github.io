@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-  <!-- <link href="" rel="icon" /> -->
+  <link href="" rel="icon" />
   <title>Hassan Khan Portfolio</title>
   <meta name="description" content="Hassan Khan portfolio.">
 
@@ -36,9 +36,18 @@
   <link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
 </head>
 
-<body  data-bs-target=".navbar" data-bs-offset="70">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
- 
+  <!-- Preloader while loading starting -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
 
   <!-- Document Wrapper  starts frum here 
 =============================== -->
@@ -52,8 +61,8 @@
         <div class="container">
           <!-- Logo -->
           <a class="logo" href="index.html" title="Hassan Khan">
-            
             <div id="nav">
+
 
               <div>
                 <a href="#home" class="nav-link home" style="color: 
@@ -90,14 +99,14 @@
           <div id="header-nav" class="collapse navbar-collapse">
             <div class="d-flex flex-column h-100 align-items-center justify-content-center">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link " href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link " href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link " href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link " href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link " href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
                 <li class="nav-item">
 
-                  <a href="/Hassan_Khan_Resume.pdf" download class="nav-link"
+                  <a href="/Hassan_Khan_Resume.pdf" download class="nav-link smooth-scroll"
                     onclick="window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link')">Resume</a>
                 </li>
                 <!-- #212529 -->
@@ -643,29 +652,27 @@
 
   <!-- JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-
-
-  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Easing -->
-  <!-- <script src="vendor/jquery.easing/jquery.easing.min.js"></script> -->
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
   <!-- Appear -->
-  <!-- <script src="vendor/jquery.appear/jquery.appear.min.js"></script> -->
+  <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
   <!-- WOW animation -->
   <script src="vendor/wow/wow.min.js"></script>
   <!-- Images Loaded -->
-  <!-- <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> -->
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <!-- Typed -->
   <script src="vendor/typed/typed.min.js"></script>
   <!-- Parallax Bg -->
-  <!-- <script src="vendor/parallaxie/parallaxie.min.js"></script> -->
+  <script src="vendor/parallaxie/parallaxie.min.js"></script>
   <!-- Owl Carousel -->
-  <!-- <script src="vendor/owl.carousel/owl.carousel.min.js"></script> -->
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
   <!-- isotope Portfolio Filter -->
-  <!-- <script src="vendor/isotope/isotope.pkgd.min.js"></script> -->
+  <script src="vendor/isotope/isotope.pkgd.min.js"></script>
   <!-- Magnific Popup -->
-  <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
   <!-- Style Switcher -->
-  <!-- <script src="js/switcher.min.js"></script> -->
+  <script src="js/switcher.min.js"></script>
   <!-- Custom Script -->
   <script src="js/theme.js"></script>
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
