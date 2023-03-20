@@ -130,15 +130,15 @@
               <p class="text-5">based in Delhi, India.</p>
 
               <a href="Hassan_Khan_Resume.pdf" download
-                onclick="window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link')"
-                id="resume-link-2" class="btn btn-dark rounded-0 mt-3">
+                onclick="resume()" class="btn btn-dark rounded-0 mt-3" id="resume-link-2">
 
                 <button id="resume-button-2"
                   style="border: none; background:  #212529; font-weight: 600; color:white">Resume</button>
               </a>
 
 
-<!-- //ok -->
+<!-- //ok 
+chnges js remove window from top to js-->
 
 
               <a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span
@@ -673,6 +673,10 @@
   <script>
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "allabovehassan", { responsive: true });
+    function resume(){
+      window.open('https://drive.google.com/file/d/1a2OUUatUedz31HWKL-FBlw2RNhAWngx2/view?usp=share_link','_blank')
+                
+    }
 
   </script>
 </body>
